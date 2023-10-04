@@ -17,8 +17,6 @@ pygame.display.set_caption("Jetpack Joyride enemies")
 
 enemy_image = pygame.image.load("missile 22.png")
 
-
-
 # Enemy class
 class Enemy(pygame.sprite.Sprite):
     def __init__(self):
